@@ -1,0 +1,191 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled2.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyNMQ7h5qftD06jP6OljD3yt",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/satvickyadlapalli/python/blob/main/python%20using%20functions\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 6,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "EJ2eFTIUXIeI",
+        "outputId": "889ed3da-f27c-4385-b442-bbc0f42eb6e6"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "hello\n",
+            "bye\n",
+            "hi\n"
+          ]
+        }
+      ],
+      "source": [
+        "#FUNCTIONS\n",
+        "def a():\n",
+        "  print(\"hello\")\n",
+        "  print(\"bye\")\n",
+        "  print(\"hi\")\n",
+        "a()"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def vote(age, gender, name):\n",
+        "  print('age=',age)\n",
+        "  print('gender=',gender)\n",
+        "  print('name=',name)\n",
+        "vote('20','male','satvick')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "eRpM2jsFat96",
+        "outputId": "ed98921d-5020-42bc-8557-4185d73f905b"
+      },
+      "execution_count": 24,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "age= 20\n",
+            "gender= male\n",
+            "name= satvick\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def vote(age, gender, name):\n",
+        "  print('age=',age)\n",
+        "  print('gender=',gender)\n",
+        "  print('name=',name)\n",
+        "age=int(input(\"enter the age \"))\n",
+        "gender=str(input(\"enter the gender \"))\n",
+        "name=str(input(\"enter the name \"))  \n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "HABADbZ2fRUJ",
+        "outputId": "becc5daf-e0b4-43d8-c4eb-15d533d411a0"
+      },
+      "execution_count": 28,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "enter the age 18\n",
+            "enter the gender male\n",
+            "enter the name satvick\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def vote(age, gender, name):\n",
+        "  print('age=',age,'gender=',gender,'name=',name,)\n",
+        "age=int(input(\"enter the age \"))\n",
+        "gender=str(input(\"enter the gender \"))\n",
+        "name=str(input(\"enter the name \"))\n",
+        "if age>18:\n",
+        "  print(\"eligible to vote\") \n",
+        "else:\n",
+        "  print(\"not eligible to vote\")  "
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FCpy8wk7gHCI",
+        "outputId": "290d1f0d-0e19-49b3-fbc3-473368b8d745"
+      },
+      "execution_count": 32,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the age 14\n",
+            "enter the gender male\n",
+            "enter the name think\n",
+            "not eligible to vote\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def a(*place):\n",
+        "  print(\"The biggest city is \" + place[2])\n",
+        "a(\"janagoam\", \"warangal\", \"hyderabad\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "U0Mu1GkSjgGo",
+        "outputId": "57959a3e-f8ea-434e-826e-0e0b1ec17c2f"
+      },
+      "execution_count": 34,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "The biggest city is hyderabad\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "Tsjo9uVFliWQ"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
